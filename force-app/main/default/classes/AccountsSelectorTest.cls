@@ -10,6 +10,6 @@ public class AccountsSelectorTest {
         AccountsSelector.selectById(acc.Id);
         Id testId;
         AccountsSelector.selectById(testId);
-        AccountsSelector.selectById(new Set<Id>());
+        AccountsSelector.selectById(new Set<Id>(testId));
     }
 }

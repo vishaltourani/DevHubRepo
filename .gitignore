@@ -1,0 +1,16 @@
+sf/
+.sfdx/
+.localdevserver/
+node_modules/
+coverage/
+.vscode/
+
+# For now, this project uses NPM.
+yarn.lock
+
+**/__MACOSX
+**/.DS_Store
+**/jsconfig.json
+
+
+force-app/main/default/.DS_Store
